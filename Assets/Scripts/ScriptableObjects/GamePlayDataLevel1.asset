@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1b147b198b50efa4aa01cb4f988fd479, type: 3}
+  m_Name: GamePlayDataLevel1
+  m_EditorClassIdentifier: 
+  playerBattleUnits:
+  - typeUnits: 0
+    prefab: {fileID: 3170828472262257240, guid: 2067e118c1f24f14d8561e862854a9de, type: 3}
+    countBattleUnits: 1
+  - typeUnits: 1
+    prefab: {fileID: 7079207938873243049, guid: 94d9ec50e5550ad47a3164f828b40ab0, type: 3}
+    countBattleUnits: 2
+  enemyBattleUnits:
+  - typeUnits: 2
+    prefab: {fileID: 5509566710498157588, guid: a12a7e212ac39154e9281ba45fb6c404, type: 3}
+    countBattleUnits: 3
+  enemyBoatPrefab: {fileID: 1082881912107217444, guid: c4443c3cf8765b14f8564a12d1fe3345, type: 3}
+  enemyWaves:
+  - EnemyCount: 1
+    boatSpeed: 15
+  - EnemyCount: 2
+    boatSpeed: 20
+  - EnemyCount: 3
+    boatSpeed: 20
